@@ -13,7 +13,7 @@ RSpec.describe Product do
 
   it "when the product is imported return the final_price with taxes" do
     product = Product.new('imported bottle of perfume', '47.50')
-    expect(product.final_price).to eq 49.90
+    expect(product.final_price).to eq 54.65
   end
 end
 
